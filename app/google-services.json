@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "203485046370",
+    "project_id": "runner-app-18b5d",
+    "storage_bucket": "runner-app-18b5d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203485046370:android:d5d818c6d1c876eacd133b",
+        "android_client_info": {
+          "package_name": "com.manh.apprunner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203485046370-6u58gdmssf8cpmj2oj8a0uk3bot58lhf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manh.apprunner",
+            "certificate_hash": "a75b8fa256e1e6486a66e80db40cbe2a9e71f3ee"
+          }
+        },
+        {
+          "client_id": "203485046370-f1kmnurshmkugb04cni0u340eme7mm99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX0A0wfnEoIE7e7-3qr3nY4rPsjVkrltg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203485046370-f1kmnurshmkugb04cni0u340eme7mm99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
