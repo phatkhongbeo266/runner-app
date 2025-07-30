@@ -1,12 +1,12 @@
 # Level Up Application
 
-Achieve your fitness goals with **Level Up**, an intuitive app designed to track and analyze your running activities with precision. Whether you're a seasoned marathon runner or just starting out, Run Tracker offers real-time GPS tracking, insightful statistics, and interactive graphs to help you stay motivated and improve your performance.
+Achieve your fitness goals with **Level Up**, a comprehensive app designed to track and analyze your running activities with precision. Whether you're a seasoned marathon runner or just starting out, Run Tracker offers real-time GPS tracking, insightful statistics, and interactive graphs to help you stay motivated and improve your performance.
 
 ## Key Features
 
-- **Real-Time GPS Tracking**: Record your runs with accurate GPS tracking and save your routes. Share your mapped-out paths with friends and family to celebrate your milestones.
+- **Real-Time GPS Tracking**: Record your runs with GPS tracking and save your routes. Share your mapped-out paths with friends and family to celebrate your milestones and become your motivation for the next run.
 
-- **Comprehensive Running History**: Keep a detailed log of all your runs, including distance, time, and calories burned, so you can monitor your improvement over time.
+- **Comprehensive Running History**: Keep a detailed log of all your runs, including distance, time, and calories burned, so you can review your improvement over time.
 
 - **Detailed Graphs & Analysis**: Dive into your stats with easy-to-read graphs showing your performance metrics such as speed, distance, and time. Use these insights to identify trends and areas for improvement.
 
@@ -23,9 +23,9 @@ Achieve your fitness goals with **Level Up**, an intuitive app designed to track
 - **Firebase**: Powers data storage, user authentication, and real-time syncing, ensuring your running stats and progress are securely managed and accessible in real-time.
 
 
-## 🚀 Firebase Setup
+## Firebase Setup
 
-### 1️⃣ Get SHA-1 Debug Key
+### 1. Get SHA-1 Debug Key
 Use the provided SHA-1:
 ```
 04:B7:F8:00:88:93:91:A9:46:92:DE:ED:5D:59:1A:0A:A7:35:28:19
@@ -43,7 +43,7 @@ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -sto
 
 ---
 
-### 2️⃣ Register Android App in Firebase
+### 2. Register Android App in Firebase
 
 * Go to [Firebase Console](https://console.firebase.google.com)
 * Create or select an existing project
@@ -53,7 +53,7 @@ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -sto
     * **SHA-1**: paste `04:B7:F8:00:88:93:91:A9:46:92:DE:ED:5D:59:1A:0A:A7:35:28:19`
 ---
 
-### 3️⃣ Add `google-services.json`
+### 3. Add `google-services.json`
 
 * Download the file from Firebase Console
 * Place it in:
@@ -62,7 +62,7 @@ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -sto
   ```
 ---
 
-### 4️⃣ Update `default_web_client_id`
+### 4. Update `default_web_client_id`
 
 * Open `google-services.json` → find:
 
@@ -86,7 +86,7 @@ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -sto
 
 ---
 
-### 5️⃣ Enable Google Sign-in Authentication
+### 5. Enable Google Sign-in Authentication
 
 * Firebase Console → Authentication → Sign-in method
 * Enable **Google**
@@ -94,7 +94,7 @@ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -sto
 
 ---
 
-### 6️⃣ Setup Firestore Database
+### 6. Setup Firestore Database
 
 * Firebase Console → Firestore Database
 * Create database (use test mode for development)
@@ -102,22 +102,22 @@ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -sto
     * Collection name: `RunTrackerUsers`
 ---
 
-## 🤖 Chatbot Setup
+## Chatbot Setup
 
-### 1️⃣ Configure API URL and API Key
+### 1.Configure API URL and API Key
 In `app/build.gradle`, inside `defaultConfig`:
 ```gradle
 buildConfigField "String", "CHATBOT_API_URL", '"https://your-api-url.com"'
 buildConfigField "String", "CHATBOT_API_KEY", '"your-api-key"'
 ```
-> ⚠️ Be careful with quotes (`"` and `'`).
+> (!!!) Be careful with quotes (`"` and `'`).
 ---
 
-### 2️⃣ Sync Project with Gradle
+### 2. Sync Project with Gradle
 * In Android Studio → **File → Sync Project with Gradle Files**
 ---
 
-### 3️⃣ Update `ChatData.kt`
+### 3. Update `ChatData.kt`
 If the API request/response format changes:
 * Modify `ChatData.kt`:
     * Add new fields as needed
