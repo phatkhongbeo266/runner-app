@@ -22,7 +22,16 @@ Achieve your fitness goals with **Level Up**, a comprehensive app designed to tr
 
 - **Firebase**: Powers data storage, user authentication, and real-time syncing, ensuring your running stats and progress are securely managed and accessible in real-time.
 
+## Demo
+<img width="285" height="502" alt="1" src="https://github.com/user-attachments/assets/56f1d43d-ad1e-4704-9bef-33bf9f8c54ba" />
+<img width="286" height="502" alt="image" src="https://github.com/user-attachments/assets/ca62f0c8-f458-4f63-9a6f-da042d0aee6d" />
+<img width="285" height="502" alt="image" src="https://github.com/user-attachments/assets/80e55319-8b77-4d34-aa49-372b2c68bf10" />
+<img width="285" height="502" alt="image" src="https://github.com/user-attachments/assets/1cdfa52c-7b75-44da-9ab0-cc714abfe9ac" />
+<img width="279" height="502" alt="image" src="https://github.com/user-attachments/assets/14e82cd4-49c8-42b3-9bf7-884408a6b721" />
+<img width="287" height="502" alt="image" src="https://github.com/user-attachments/assets/e25c2b00-0669-44a0-9950-d2ab0f3ed9f7" />
 
+## Download Link
+[Level Up](https://drive.google.com/file/d/1zDtnKjKcYYSdx2XGRub7zl6yg-2u-2zC/view?usp=sharing)
 ## Firebase Setup
 
 ### 1. Get SHA-1 Debug Key
